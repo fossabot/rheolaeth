@@ -5,6 +5,7 @@
 [![GitHub Stars](https://img.shields.io/github/stars/nthnn/rheolaeth.svg)](https://github.com/nthnn/rheolaeth/stargazers)
 ![GitHub repo size](https://img.shields.io/github/repo-size/nthnn/rheolaeth?logo=git&label=Repository%20Size)
 [![License](https://img.shields.io/badge/license-MPL-blue.svg)](https://github.com/nthnn/rheolaeth/blob/main/LICENSE)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fnthnn%2Frheolaeth.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fnthnn%2Frheolaeth?ref=badge_shield)
 <a href="https://www.buymeacoffee.com/nthnn"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" height="20px"></a>
 
 Rheolaeth is a Ballerina program designed for secure remote execution on devices. It consists of two parts: "puppet" and "puppetmaster." The "puppet" creates a local HTTP server, accepting shell payloads to execute on the device where it is installed. The "puppetmaster" acts as a terminal shell, executing input payloads on a specified target device. Both parts use the AES-ECB encryption algorithm for secure connections, requiring a defined key for the connection password on both ends.
@@ -56,6 +57,9 @@ password = "00112233445566778899aabbccddeeff"
 Rheolaeth is open-source software released under the terms of the Mozilla Public License, version 2.0 (MPL-2.0). The MPL-2.0 is a permissive open-source license that allows you to freely use, modify, distribute, and contribute to the project.
 
 For a detailed understanding of your rights and obligations under the MPL-2.0, please review the full text of the license, which is available [here](LICENSE).
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fnthnn%2Frheolaeth.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fnthnn%2Frheolaeth?ref=badge_large)
 
 ## Disclaimer
 
